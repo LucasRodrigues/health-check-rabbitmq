@@ -1,11 +1,11 @@
 {
-  "name": "health-check-redis",
-  "description": "Get the health of redis infra",
+  "name": "health-check-rabbitmq",
+  "description": "Get the health of rabbitmq infra",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LucasRodrigues/health-check-redis.git"
+    "url": "https://github.com/LucasRodrigues/health-check-rabbitmq.git"
   },
-  "version": "0.0.8",
+  "version": "0.0.1",
   "license": "MIT",
   "author": {
     "name": "Lucas Rodrigues",

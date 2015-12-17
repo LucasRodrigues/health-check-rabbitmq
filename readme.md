@@ -1,20 +1,20 @@
 # Health Check Redis
 
 ## CI
-[![Circle CI](https://circleci.com/gh/LucasRodrigues/health-check-redis.svg?style=svg)](https://circleci.com/gh/LucasRodrigues/health-check-redis)
+[![Circle CI](https://circleci.com/gh/LucasRodrigues/health-check-rabbitmq.svg?style=svg)](https://circleci.com/gh/LucasRodrigues/health-check-rabbitmq)
 
 ## Install
 
 ```
-$ npm install health-check-redis
+$ npm install health-check-rabbitmq
 ```
 
 ## Usage
 
 ```
-var healthCheckRedis = require('health-check-redis');
+var healthCheckRabbitMq = require('health-check-rabbitmq');
 
-healthCheckRedis.do([
+healthCheckRabbitMq.do([
 {
   host: '127.0.0.1',
   port: 6379
