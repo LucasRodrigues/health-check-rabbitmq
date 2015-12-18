@@ -1,4 +1,4 @@
-# Health Check Redis
+# Health Check RabbitMq
 
 ## CI
 [![Circle CI](https://circleci.com/gh/LucasRodrigues/health-check-rabbitmq.svg?style=svg)](https://circleci.com/gh/LucasRodrigues/health-check-rabbitmq)
