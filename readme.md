@@ -13,7 +13,7 @@ $ npm install health-check-rabbitmq
 
 ## Usage
 
-```
+```js
 var healthCheckRabbitMq = require('health-check-rabbitmq');
 
 healthCheckRabbitMq.do([
