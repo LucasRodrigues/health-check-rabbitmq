@@ -43,7 +43,8 @@ healthCheckRabbitMq.do([
             {
               name: 'wrong host:6379',
               health: false,
-              message: 'Redis connection to wrong host:6379 failed - getaddrinfo ENOTFOUND wrong host wrong host:6379'
+              message: '',
+              host:6379'
             }
           ]
       }
