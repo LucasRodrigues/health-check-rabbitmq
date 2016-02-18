@@ -1,5 +1,7 @@
 # Health Check RabbitMq
 
+Health check to system [rabbitmq](https://www.rabbitmq.com/)
+
 ## CI
 [![Circle CI](https://circleci.com/gh/LucasRodrigues/health-check-rabbitmq.svg?style=svg)](https://circleci.com/gh/LucasRodrigues/health-check-rabbitmq)
 
@@ -11,7 +13,7 @@ $ npm install health-check-rabbitmq
 
 ## Usage
 
-```
+```js
 var healthCheckRabbitMq = require('health-check-rabbitmq');
 
 healthCheckRabbitMq.do([
