@@ -16,38 +16,38 @@ var healthCheckRabbitMq = require('health-check-rabbitmq');
 
 healthCheckRabbitMq.do([
 {
-  host: '127.0.0.1',
+  url: '127.0.0.1',
   port: 6379
 },
 {
-  host: 'wrong host',
+  url: 'wrong host',
   port: 6379
 }])
  .then(function(result){
-    console.log(result); 
-    
-    /* 
-      { 
+    console.log(result);
+
+    /*
+      {
         health: false,
         success: 1,
         error: 1,
-        details: 
-          [ 
-            { 
-              name: '127.0.0.1:6379', 
-              health: true, 
-              message: '' 
+        details:
+          [
+            {
+              name: '127.0.0.1:6379',
+              health: true,
+              message: ''
             },
-            { 
+            {
               name: 'wrong host:6379',
               health: false,
-              message: 'Redis connection to wrong host:6379 failed - getaddrinfo ENOTFOUND wrong host wrong host:6379' 
-            } 
-          ] 
+              message: 'Redis connection to wrong host:6379 failed - getaddrinfo ENOTFOUND wrong host wrong host:6379'
+            }
+          ]
       }
     */
  })
  .catch(function(error){
-    console.log(error); 
+    console.log(error);
  });
 ```
